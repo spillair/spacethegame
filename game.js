@@ -13,7 +13,7 @@ function Ship(playerController, x, y) {
     this.x = x;
     this.y = y;
 
-    this.img = document.createElement("img/ourship.png");
+    this.img = document.getElementById("ourship");
 
     this.update = function() {
 
